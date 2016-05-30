@@ -1,0 +1,190 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "documentation": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "setup": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "toolType": {
+      "type": "string",
+      "enum": ["NGS", "spliter", "joiner", "lister"]
+    },
+    "requiredMemory": {
+      "type": "integer"
+    },
+    "recommendedCpus": {
+      "type": "integer"
+    },
+    "recommendedDiskSpace": {
+      "type": "integer"
+    },
+    "commands": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "command": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "priority": {
+            "type": "integer"
+          },
+          "argumentsComposer": {
+            "type": "string"
+          },
+          "arguments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "argumentType": {
+                  "type": "string",
+                  "enum": [
+                    "int",
+                    "file",
+                    "string",
+                    "double",
+                    "directory"
+                  ],
+                  "isRequired": {
+                    "type": "string",
+                    "enum": [
+                      "true",
+                      "false"
+                    ]
+                  }
+                },
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "argumentType",
+                "isRequired",
+                "description"
+              ]
+            }
+          },
+          "outputs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "outputType": {
+                  "type": "string",
+                  "enum": [
+                    "directory_dependent",
+                    "file_dependent",
+                    "independent"
+                  ]
+                },
+                "argument_name": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "name",
+                "description",
+                "outputType",
+                "argument_name",
+                "value"
+              ]
+            }
+          },
+          "inputs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "inputType": {
+                  "type": "string",
+                  "enum": [
+                    "directory_dependent",
+                    "file_dependent",
+                    "independent"
+                  ]
+                }
+              },
+              "required": [
+                "name",
+                "description",
+                "inputType",
+                "argument_name",
+                "value"
+              ]
+            }
+          }
+        },
+        "required": [
+          "name",
+          "command",
+          "description",
+          "priority",
+          "argumentsComposer",
+          "arguments",
+          "outputs",
+          "inputs"
+        ]
+      }
+    }
+  },
+  "required": [
+    "name",
+    "author",
+    "version",
+    "description",
+    "documentation",
+    "setup",
+    "toolType",
+    "requiredMemory",
+    "recommendedDiskSpace",
+    "recommendedCpus",
+    "commands"
+  ]
+}
