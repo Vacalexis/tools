@@ -342,7 +342,22 @@
           "value": "Log"
         }
       ],
-      "inputs": []
+      "inputs": [
+		{
+		  "name": "",
+		  "description": "",
+		  "inputType": "file_dependent",
+		  "argument_name": "-query",
+		  "value": ""
+		},
+		{
+		  "name": "",
+		  "description": "",
+		  "inputType": "file_dependent",
+		  "argument_name": "-db",
+		  "value": ""
+		}
+	  ]
     }
   ]
 }
