@@ -351,20 +351,27 @@
         }
       ],
       "inputs": [
-		{
-		  "name": "",
-		  "description": "",
-		  "inputType": "file_dependent",
-		  "argument_name": "-query",
-		  "value": ""
-		},
-		{
-		  "name": "",
-		  "description": "",
-		  "inputType": "file_dependent",
-		  "argument_name": "-db",
-		  "value": ""
-		}
+	{
+          "name": "sequence",
+          "description": "",
+          "inputType": "directory_dependent",
+          "argument_name": "output_directory",
+          "value": "Sequences"
+        },
+        {
+          "name": "roadmaps",
+          "description": "",
+          "inputType": "directory_dependent",
+          "argument_name": "output_directory",
+          "value": "Roadmaps"
+        },
+        {
+          "name": "log",
+          "description": "",
+          "inputType": "directory_dependent",
+          "argument_name": "output_directory",
+          "value": "Log"
+        }
 	  ]
     }
   ]
