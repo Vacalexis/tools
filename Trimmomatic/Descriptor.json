@@ -204,7 +204,7 @@
           "description": "",
           "inputType": "file_dependent",
           "value": "",
-          "argument_name": ""
+          "argument_name": "inputFile"
         }
       ]
     }
