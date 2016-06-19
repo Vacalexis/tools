@@ -108,7 +108,15 @@
           "value": "Log"
         }
       ],
-      "inputs": []
+      "inputs": [
+      	{
+		  "name": "",
+		  "description": "",
+		  "inputType": "file_dependent",
+		  "argument_name": "filename",
+		  "value": ""
+	}	
+      ]
     },
     {
       "name": "velvetg",
