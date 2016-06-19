@@ -4301,6 +4301,13 @@
           "inputType": "file_dependent",
           "value": "",
           "argument_name": "-query"
+        },
+        {
+          "name": "-db",
+          "description": "",
+          "inputType": "file_dependent",
+          "value": "",
+          "argument_name": "-db"
         }
       ]
     }
