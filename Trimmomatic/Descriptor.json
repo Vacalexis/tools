@@ -205,6 +205,13 @@
           "inputType": "file_dependent",
           "value": "",
           "argument_name": "inputFile"
+        },
+        {
+          "name": "",
+          "description": "",
+          "inputType": "file_dependent",
+          "value": "",
+          "argument_name": "fastaWithAdaptersEtc"
         }
       ]
     }
