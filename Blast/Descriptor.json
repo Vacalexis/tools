@@ -320,7 +320,15 @@
           "argument_name": "-out"
         }
       ],
-      "inputs": []
+      "inputs": [
+        {
+	      	"name": "",
+		      "description": "",
+		      "inputType": "file_dependent",
+		      "argument_name": "-in",
+		      "value": ""
+		    }  
+      ]
     },
     {
       "name": "blastn",
