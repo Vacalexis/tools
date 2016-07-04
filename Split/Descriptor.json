@@ -38,7 +38,7 @@
 		  "description": "Number of lines for each partition."
 		},
 		{
-		  "name": "--bytes"
+		  "name": "--bytes",
 		  "argumentType": "int",
 		  "isRequired": "false",
 		  "description": "Number of bytes per output file."
