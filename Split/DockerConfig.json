@@ -1,0 +1,11 @@
+{
+	"name" : "DockerConfig",
+
+	"builder" : "Docker",
+
+	"uri" : "debian",
+
+	"setup" : [
+		"sudo apt-get install -y docker.io"
+	]
+}

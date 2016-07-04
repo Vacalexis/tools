@@ -1,0 +1,49 @@
+{
+  "name": "Join",
+  "author": "Alexandre Almeida",
+  "version": "1.0.0",
+  "description": "Script for joiniing files.",
+  "documentation": [
+  ],
+  "setup": [
+  ],
+  "toolType": "Join",
+  "requiredMemory": 1024,
+  "recommendedCpus": 1,
+  "recommendedDiskSpace": 1,
+  "commands": [
+    {
+      "name": "join",
+      "command": "join",
+      "description": "Join",
+      "priority": 1,
+      "argumentsComposer": "join",
+      "arguments": [
+        {
+          "name": "inputsName",
+          "argumentType": "file",
+          "isRequired": "true",
+          "description": "File that will be joined."
+        }
+      ],
+      "outputs": [
+        {
+          "name": "outputName",
+          "description": "Name of output file.",
+          "outputType": "file_dependent",
+          "value": "",
+          "argument_name": ""
+        }
+      ],
+      "inputs": [
+        {
+          "name": "inputsName",
+          "description": "Name of the input files.",
+          "inputType": "string",
+          "value": "", 
+          "argument_name": "filename"
+        }
+      ]
+    }
+  ]
+}
