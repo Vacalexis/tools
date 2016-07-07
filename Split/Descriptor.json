@@ -54,7 +54,7 @@
         {
           "name": "outputName",
           "description": "Name of each partition.",
-          "outputType": "partial",
+          "outputType": "file_dependent",
           "value": "",
           "argument_name": "inputName"
         }
