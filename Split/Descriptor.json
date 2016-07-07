@@ -55,7 +55,7 @@
           "name": "outputName",
           "description": "Name of each partition.",
           "outputType": "partial",
-          "value": "inputNameDir/#DIR/inputName",
+          "value": "",
           "argument_name": ""
         }
       ],
