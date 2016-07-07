@@ -20,10 +20,10 @@
       "argumentsComposer": "join",
       "arguments": [
         {
-          "name": "inputsName",
+          "name": "filename",
           "argumentType": "file",
           "isRequired": "true",
-          "description": "File that will be joined."
+          "description": "Name of the files that will be joined and of the file that will be produced."
         }
       ],
       "outputs": [
@@ -32,7 +32,7 @@
           "description": "Name of output file.",
           "outputType": "file_dependent",
           "value": "",
-          "argument_name": ""
+          "argument_name": "filename"
         }
       ],
       "inputs": [
