@@ -95,6 +95,7 @@
         {
           "name": "--output",
           "description": "Output file. Relative or absolute path to the consensus fasta file for this sample. (default: consensus.fasta)",
+		  "outputType": "file_dependent",
           "value": "",
           "argument_name": "--output"
         }
