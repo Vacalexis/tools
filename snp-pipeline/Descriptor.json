@@ -63,7 +63,7 @@
 	  "name": "call_consensus",
 	  "command":"call_consensus.py",
 	  "description":"Call the consensus base for a sample at the specified positions where SNPs were previously called in any of the samples. Generates a single-sequence fasta file with one base per specified position.",
-	  "priority":"1",
+	  "priority": 1,
 	  "argumentsComposer": "",
 	  "arguments": [
 	    {
