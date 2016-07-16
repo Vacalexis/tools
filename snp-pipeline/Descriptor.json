@@ -49,14 +49,14 @@
 		  "value": ""
 		} 
       ],
-	  "outputs:[
+	  "outputs":[
 	    {
           "name": "--output",
           "description": "Output file. Relative or absolute path to the SNP matrix file (default: snpma.fasta)",
           "value": "",
           "argument_name": "--output"
         }
-	  ]"
+	  ]
 	},
 	{
 	  "name": "call_consensus",
@@ -160,7 +160,7 @@
 		  "description": "Relative or absolute path to the SNP list file (default: snplist.txt)"
 		},
 		{
-		  "name": "--verbose"
+		  "name": "--verbose",
 		  "argumentType": "int",
 		  "isRequired": "false",
 		  "description": "Verbose message level (0=no info, 5=lots) (default: 1)"
