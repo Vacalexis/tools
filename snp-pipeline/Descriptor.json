@@ -54,6 +54,7 @@
           "name": "--output",
           "description": "Output file. Relative or absolute path to the SNP matrix file (default: snpma.fasta)",
           "value": "",
+		  "outputType": "file_dependent",
           "argument_name": "--output"
         }
 	  ]
