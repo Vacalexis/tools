@@ -18,7 +18,7 @@
       "command": "java -jar VarScan.jar mpileup2snp",
       "description": "calls single muncleotide polymorphisms (SNPs)",
       "priority": 1,
-      "argumentsComposer": "",
+      "argumentsComposer": "VarScan",
       "arguments": [
         {
           "name": "mpileupFile",

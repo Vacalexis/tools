@@ -19,7 +19,7 @@
 	  "command": "create_snp_matrix.py",
 	  "description": "Create the SNP matrix containing the consensus base for each of the samples at the positions where SNPs were called in any of the samples. The matrix contains one row per sample and one column per SNP position. Non-SNP positions are not included in the matrix. The matrix is formatted as a fasta file, with each sequence (all of identical length) corresponding to the SNPs in the correspondingly named sequence.",
 	  "priority": 1,
-	  "argumentsComposer": "",
+	  "argumentsComposer": "SnpPipeline",
 	  "arguments":[
 	    {
           "name": "sampleDirsFile",
@@ -64,7 +64,7 @@
 	  "command":"call_consensus.py",
 	  "description":"Call the consensus base for a sample at the specified positions where SNPs were previously called in any of the samples. Generates a single-sequence fasta file with one base per specified position.",
 	  "priority": 1,
-	  "argumentsComposer": "",
+	  "argumentsComposer": "SnpPipeline",
 	  "arguments": [
 	    {
 	      "name": "--snpListFile",
@@ -129,7 +129,7 @@
       "command": "create_snp_list.py",
       "description": "Combine the SNP positions across all samples into a single unified SNP list file identifing the postions and sample names where SNPs were called.",
       "priority": 1,
-      "argumentsComposer": "",
+      "argumentsComposer": "SnpPipeline",
       "arguments": [
         {
           "name": "sampleDirsFile",

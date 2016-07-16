@@ -18,7 +18,7 @@
 	  "command": "bowtie2-build",
 	  "description": "",
 	  "priority": 1,
-	  "argumentsComposer": "",
+	  "argumentsComposer": "bowtie2-build",
 	  "arguments":[
 	    {
 		  "name": "reference_in",
@@ -57,7 +57,7 @@
       "command": "bowtie2",
       "description": "bowtie2 takes a Bowtie 2 index and a set of sequencing read files and outputs a set of alignments in SAM format.",
       "priority": 1,
-      "argumentsComposer": "",
+      "argumentsComposer": "bowtie2",
       "arguments": [
         {
           "name": "-p",
