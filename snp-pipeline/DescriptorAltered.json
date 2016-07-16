@@ -114,6 +114,13 @@
 		  "inputType": "file_dependent",
 		  "argument_name": "--snpListFile",
 		  "value": ""
+		},
+		{
+		  "name": "--vcfFileName",
+		  "description": "VCF Output file name. If specified, a VCF file with this file name will be created in the same directory as the consensus fasta file for this sample. (default: None)",
+		  "inputType": "file_dependent",
+		  "argument_name": "--vcfFileName",
+		  "value": ""
 		}
       ]
 	},
