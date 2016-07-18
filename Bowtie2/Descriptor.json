@@ -34,6 +34,13 @@
 		}
 	  ],
 	  "outputs":[
+	    {
+		 "name": "output",
+		  "description": "",
+		  "inputType": "independent",
+		  "argument_name": "",
+		  "value": ""
+		}
 	  ],
 	  "inputs":[
 	    {
