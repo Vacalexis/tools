@@ -2,6 +2,10 @@
 	"toolsName": [
 		"Trimmomatic",
 		"Blast",
-		"Velvet"
+		"Velvet",
+		"Bowtie2",
+		"Samtools",
+		"VarScan",
+		"snp-pipeline"
 	]
 }
