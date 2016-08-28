@@ -37,7 +37,7 @@
 	    {
 		 "name": "output",
 		  "description": "",
-		  "inputType": "independent",
+		  "outputType": "independent",
 		  "argument_name": "",
 		  "value": ""
 		}
