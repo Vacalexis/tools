@@ -35,10 +35,10 @@
 	  ],
 	  "outputs":[
 	    {
-		 "name": "reference_in",
+		 "name": "bt2_base",
 		  "description": "",
 		  "outputType": "independent",
-		  "argument_name": "reference_in",
+		  "argument_name": "bt2_base",
 		  "value": ""
 		}
 	  ],
