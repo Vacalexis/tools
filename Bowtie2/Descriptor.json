@@ -35,7 +35,7 @@
 	  ],
 	  "outputs":[
 	    {
-		 "name": "reference",
+		 "name": "reference_in",
 		  "description": "",
 		  "outputType": "independent",
 		  "argument_name": "reference_in",
