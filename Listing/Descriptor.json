@@ -25,24 +25,90 @@
           "isRequired": "true",
           "description": "Files that will be listed."
         },
-		{
-		  "name": "numberOfFiles",
-		  "argumentType": "int",
-		  "isRequired": "true",
-		  "description": "Number of files to be listed."
-		},
-		{
-		  "name": "--lines",
-		  "argumentType": "int",
-		  "isRequired": "false",
-		  "description": "Number of lines for each partition."
-		},
-		{
-		  "name": "referenceName",
-		  "argumentType": "string",
-		  "isRequired": "true",
-		  "description": "Name by which files are to be referenced."
-		}
+	{
+	  "name": "numberOfFiles",
+	  "argumentType": "int",
+	  "isRequired": "true",
+	  "description": "Number of files to be listed."
+	},
+	{
+	  "name": "referenceName",
+	  "argumentType": "string",
+	  "isRequired": "true",
+	  "description": "Name by which files are to be referenced."
+	}
+      ],
+      "outputs": [
+        {
+          "name": "referenceName",
+          "description": "Name by which files are to be referenced.",
+          "outputType": "independent",
+          "value": "",
+          "argument_name": "referenceName"
+        }
+      ],
+      "inputs": [
+        {
+          "name": "referenceName",
+          "description": "Name by which files are to be referenced.",
+          "inputType": "independent",
+          "value": "",
+          "argument_name": "referenceName"
+        }
+      ]
+    },
+    {
+      "name": "stopListing",
+      "command": "stopListing",
+      "description": "Stops listing",
+      "priority": 1,
+      "argumentsComposer": "stopListing",
+      "arguments": [
+        {
+          "name": "destinationDirectories",
+          "argumentType": "file",
+          "isRequired": "true",
+          "description": "Directories where each referenced files will be put"
+        },
+	{
+	  "name": "referenceName",
+	  "argumentType": "string",
+	  "isRequired": "true",
+	  "description": "Name by which files are to be referenced."
+	}
+      ],
+      "outputs": [
+        {
+          "name": "referenceName",
+          "description": "Name by which files are to be referenced.",
+          "outputType": "independent",
+          "value": "",
+          "argument_name": "referenceName"
+        }
+      ],
+      "inputs": [
+        {
+          "name": "referenceName",
+          "description": "Name by which files are to be referenced.",
+          "inputType": "independent",
+          "value": "",
+          "argument_name": "referenceName"
+        }
+      ]
+    },
+    {
+      "name": "restartListing",
+      "command": "restartListing",
+      "description": "Restart listing",
+      "priority": 1,
+      "argumentsComposer": "restartListing",
+      "arguments": [
+	{
+	  "name": "referenceName",
+	  "argumentType": "string",
+	  "isRequired": "true",
+	  "description": "Name by which files are to be referenced."
+	}
       ],
       "outputs": [
         {
