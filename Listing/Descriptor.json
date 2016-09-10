@@ -17,7 +17,7 @@
       "command": "startList",
       "description": "Starts listing",
       "priority": 1,
-      "argumentsComposer": "startListing",
+      "argumentsComposer": "COMPOSER_VALUES_SEPARATED_BY_SPACE_NAME",
       "arguments": [
         {
           "name": "filesList",
@@ -62,7 +62,7 @@
       "command": "stopListing",
       "description": "Stops listing",
       "priority": 1,
-      "argumentsComposer": "stopListing",
+      "argumentsComposer": "COMPOSER_VALUES_SEPARATED_BY_SPACE_NAME",
       "arguments": [
         {
           "name": "destinationDirectories",
@@ -101,7 +101,7 @@
       "command": "restartListing",
       "description": "Restart listing",
       "priority": 1,
-      "argumentsComposer": "restartListing",
+      "argumentsComposer": "COMPOSER_VALUES_SEPARATED_BY_SPACE_NAME",
       "arguments": [
 	{
 	  "name": "referenceName",
