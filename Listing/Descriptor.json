@@ -13,8 +13,8 @@
   "recommendedDiskSpace": 1,
   "commands": [
     {
-      "name": "startList",
-      "command": "startList",
+      "name": "startListing",
+      "command": "startListing",
       "description": "Starts listing",
       "priority": 1,
       "argumentsComposer": "values_separated_by_space",
