@@ -36,12 +36,6 @@
 	  "argumentType": "string",
 	  "isRequired": "true",
 	  "description": "Name by which files are to be referenced."
-	},
-	{
-	  "name": "-nd",
-	  "argumentType": "self-sufficient",
-	  "isRequired": "false",
-	  "description": "If used listing will created new directories for each file."
 	}
       ],
       "outputs": [
