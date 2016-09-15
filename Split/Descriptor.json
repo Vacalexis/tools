@@ -14,7 +14,7 @@
   "commands": [
     {
       "name": "split",
-      "command": "./split.sh",
+      "command": "split.sh",
       "description": "Split",
       "priority": 1,
       "argumentsComposer": "Split",
