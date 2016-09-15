@@ -14,7 +14,7 @@
   "commands": [
     {
       "name": "join",
-      "command": "./join.sh",
+      "command": "join.sh",
       "description": "Join",
       "priority": 1,
       "argumentsComposer": "join",
