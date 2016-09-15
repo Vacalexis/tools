@@ -21,7 +21,7 @@
       "arguments": [
         {
           "name": "filesList",
-          "argumentType": "file",
+          "argumentType": "string",
           "isRequired": "true",
           "description": "Files that will be listed."
         },
@@ -71,10 +71,10 @@
       "argumentsComposer": "values_separated_by_space",
       "arguments": [
         {
-          "name": "destinationDirectories",
-          "argumentType": "file",
+          "name": "destinationFiles",
+          "argumentType": "string",
           "isRequired": "true",
-          "description": "Directories where each referenced files will be put"
+          "description": "Files where each referenced file will be put"
         },
 	{
 	  "name": "referenceName",
