@@ -158,7 +158,7 @@
           "name": "-num_alignments",
           "argumentType": "int",
           "isRequired": "false",
-          "description": " Number of alignments to show in the BLAST output."
+          "description": "Number of alignments to show in the BLAST output."
         },
         {
           "name": "-num_descriptions",
