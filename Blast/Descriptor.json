@@ -4346,6 +4346,12 @@
           "description": ""
         },
         {
+          "name": "-d",
+          "argumentType": "file",
+          "isRequired": "true",
+          "description": ""
+        },
+        {
           "name": "-i",
           "argumentType": "file",
           "isRequired": "true",
