@@ -4325,6 +4325,64 @@
           "argument_name": "-db"
         }
       ]
+    },
+    {
+      "name": "blastall",
+      "command": "blastall",
+      "description": "blastall is controlled by several parameters. Many of the parameters have default settings and don't need to be explicitly assigned.",
+      "priority": 1,
+      "argumentsComposer": "name_values_separated_by_space",
+      "arguments": [
+      	{
+          "name": "-m",
+          "argumentType": "int",
+          "isRequired": "true",
+          "description": ""
+        },
+        {
+          "name": "-p",
+          "argumentType": "string",
+          "isRequired": "true",
+          "description": ""
+        },
+        {
+          "name": "-i",
+          "argumentType": "file",
+          "isRequired": "true",
+          "description": ""
+        },
+        {
+          "name": "-o",
+          "argumentType": "file",
+          "isRequired": "true",
+          "description": ""
+        }
+      ],
+      "outputs": [
+        {
+          "name": "-o",
+          "description": "",
+          "outputType": "file_dependent",
+          "value": "",
+          "argument_name": "-o"
+        }
+      ],
+      "inputs": [
+      	{
+      	  "name": "-d",
+          "description": "",
+          "inputType": "file_dependent",
+          "value": "",
+          "argument_name": "-d"
+      	},
+      	{
+      	  "name": "-i",
+          "description": "",
+          "inputType": "file_dependent",
+          "value": "",
+          "argument_name": "-i"
+      	}
+      ]
     }
   ]
 }
