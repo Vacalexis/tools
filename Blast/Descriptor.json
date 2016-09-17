@@ -712,14 +712,14 @@
           "name": "-db",
           "inputType": "file_dependent",
           "value": "",
-          "argument_name": "-db"
+          "argument_name": "-db",
           "description": " File name of BLAST database to search the query against. Unless an absolute path is used, the database will be searched relative to the current working directory first, then relative to the value specified by the BLASTDB environment variable, then relative to the BLASTDB configuration value specified in the configuration file."
         },
         {
           "name": "-query",
           "inputType": "file_dependent",
           "value": "",
-          "argument_name": "-query"
+          "argument_name": "-query",
           "description": " Name of the file containing the query sequence(s), or ‘-‘ if these are provided on standard input."
         }
       ]
