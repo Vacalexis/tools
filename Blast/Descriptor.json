@@ -2663,7 +2663,15 @@
           "argument_name": "-out"
         }
       ],
-      "inputs": []
+      "inputs": [
+        {
+          "name": "-in",
+          "description": "",
+          "outputType": "file_dependent",
+          "value": "",
+          "argument_name": "-in"
+        }	
+      ]
     },
     {
       "name": "blastdb_aliastool",
