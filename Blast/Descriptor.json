@@ -2667,7 +2667,7 @@
         {
           "name": "-in",
           "description": "",
-          "outputType": "file_dependent",
+          "inputType": "file_dependent",
           "value": "",
           "argument_name": "-in"
         }	
