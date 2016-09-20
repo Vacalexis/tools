@@ -3,7 +3,7 @@
 
 	"builder" : "Docker",
 
-	"uri" : "debian",
+	"uri" : "vacalexis/split",
 
 	"setup" : [
 		"sudo apt-get install -y docker.io"
