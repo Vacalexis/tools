@@ -26,12 +26,6 @@
           "description": "Files that will be listed."
         },
 	{
-	  "name": "numberOfFiles",
-	  "argumentType": "int",
-	  "isRequired": "true",
-	  "description": "Number of files to be listed."
-	},
-	{
 	  "name": "referenceName",
 	  "argumentType": "string",
 	  "isRequired": "true",
