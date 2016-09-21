@@ -9,7 +9,7 @@
   "setup": [
   ],
   "toolType": "unit",
-  "requiredMemory": 4096,
+  "requiredMemory": 2048,
   "recommendedCpus": 1,
   "recommendedDiskSpace": 1,
   "commands": [
