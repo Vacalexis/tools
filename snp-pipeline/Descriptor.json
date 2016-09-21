@@ -172,12 +172,19 @@
       ],
       "inputs": [
         {
-		  "name": "sampleDirsFile",
-		  "description": "Relative or absolute path to file containing a list of directories -- one per sample",
-		  "inputType": "file_dependent",
-		  "argument_name": "sampleDirsFile",
-		  "value": ""
-		}  
+	  "name": "sampleDirsFile",
+	  "description": "Relative or absolute path to file containing a list of directories -- one per sample",
+	  "inputType": "file_dependent",
+	  "argument_name": "sampleDirsFile",
+	  "value": ""
+	},
+	{
+	  "name": "--vcf_name",
+	  "description": "File name of the VCF files which must exist in each of the sample directories (default: var.flt.vcf)",
+	  "inputType": "string",
+	  "argument_name": "--vcf_name",
+	  "value": "var.flt.vcf"
+	}
       ]
     },
     {
