@@ -15,7 +15,7 @@
     {
       "name": "join",
       "command": "/Split/join.sh",
-      "description": "Join",
+      "description": "joining",
       "priority": 1,
       "argumentsComposer": "join",
       "arguments": [
