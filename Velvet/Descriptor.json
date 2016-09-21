@@ -12,7 +12,7 @@
   "setup": [
     "make"
   ],
-  "toolType": "NGS",
+  "toolType": "unit",
   "requiredMemory": 12288,
   "recommendedDiskSpace": 1,
   "recommendedCpus": 1,
