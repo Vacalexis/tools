@@ -92,7 +92,7 @@
     },
     {
       "name": "restartListing",
-      "command": "restartListing.sh",
+      "command": "/Split/restartListing.sh",
       "description": "Restart listing",
       "priority": 1,
       "argumentsComposer": "values_separated_by_space",
