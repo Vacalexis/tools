@@ -50,7 +50,7 @@
 	  	},
 		{
 		  "name": "sampleDirsFile",
-		  "description": "Relative or absolute path to file containing a list of directories -- one per sample",
+		  "description": "Relative or absolute path to file containing a list of directories --  one per sample",
 		  "inputType": "file_dependent",
 		  "argument_name": "sampleDirsFile",
 		  "value": ""
