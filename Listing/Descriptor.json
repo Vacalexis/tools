@@ -53,7 +53,7 @@
     },
     {
       "name": "stopListing",
-      "command": "stopListing.sh",
+      "command": "/Split/stopListing.sh",
       "description": "Stops listing",
       "priority": 1,
       "argumentsComposer": "values_separated_by_space",
