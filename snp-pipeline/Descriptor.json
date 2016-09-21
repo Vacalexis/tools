@@ -191,7 +191,7 @@
           "name": "-d",
           "argumentType": "string",
           "isRequired": "true",
-          "description": "Pointer to all directories containing the directories to use as sample. Example: dir1/*".
+          "description": "Pointer to all directories containing the directories to use as sample. Example: dir1/*"
         },
         {
           "name": "--output",
