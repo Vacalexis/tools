@@ -181,8 +181,8 @@
       ]
     },
     {
-      "name": "create_snp_list",
-      "command": "create_snp_list.py",
+      "name": "create_samples_dir",
+      "command": "ls",
       "description": "Combine the SNP positions across all samples into a single unified SNP list file identifing the postions and sample names where SNPs were called.",
       "priority": 1,
       "argumentsComposer": "create_sample_dirs",
