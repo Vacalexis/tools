@@ -8,7 +8,7 @@
   ],
   "setup": [
   ],
-  "toolType": "NGS",
+  "toolType": "unit",
   "requiredMemory": 4096,
   "recommendedCpus": 1,
   "recommendedDiskSpace": 1,
