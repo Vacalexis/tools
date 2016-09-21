@@ -10,7 +10,7 @@
   "setup": [
     "apt-get install -y default-jre"
   ],
-  "toolType": "NGS",
+  "toolType": "unit",
   "requiredMemory": 1024,
   "recommendedDiskSpace": 1,
   "recommendedCpus": 1,
