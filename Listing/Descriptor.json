@@ -14,7 +14,7 @@
   "commands": [
     {
       "name": "startListing",
-      "command": "startListing.sh",
+      "command": "/Split/startListing.sh",
       "description": "Starts listing",
       "priority": 1,
       "argumentsComposer": "values_separated_by_space",
