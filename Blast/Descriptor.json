@@ -10,7 +10,7 @@
   "setup": [
     "apt-get install ncbi-blast+"
   ],
-  "toolType": "NGS",
+  "toolType": "unit",
   "requiredMemory": 2048,
   "recommendedCpus": 1,
   "recommendedDiskSpace": 1,
