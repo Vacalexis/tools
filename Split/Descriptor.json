@@ -7,7 +7,7 @@
   ],
   "setup": [
   ],
-  "toolType": "Split",
+  "toolType": "splitting",
   "requiredMemory": 1024,
   "recommendedCpus": 1,
   "recommendedDiskSpace": 1,
