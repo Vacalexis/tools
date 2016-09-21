@@ -41,6 +41,13 @@
 		}
 	  ],
 	  "inputs":[
+	  	{
+	  	  "name": "--consFileName",
+	  	  "inputType": "string",
+	  	  "description": "File name of the previously created consensus SNP call file which must exist in each of the sample directories (default: consensus.fasta)"
+	  	  "argument_name": "--consFileName",
+	  	  "value": "consensus.fasta"
+	  	},
 		{
 		  "name": "sampleDirsFile",
 		  "description": "Relative or absolute path to file containing a list of directories -- one per sample",
