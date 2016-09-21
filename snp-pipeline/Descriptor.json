@@ -179,6 +179,38 @@
 		  "value": ""
 		}  
       ]
+    },
+    {
+    	"name": "create_snp_list",
+      "command": "create_snp_list.py",
+      "description": "Combine the SNP positions across all samples into a single unified SNP list file identifing the postions and sample names where SNPs were called.",
+      "priority": 1,
+      "argumentsComposer": "create_sample_dirs",
+      "arguments": [
+        {
+          "name": "-d",
+          "argumentType": "string",
+          "isRequired": "true",
+          "description": "Pointer to all directories containing the directories to use as sample. Example: "dir1/*".
+        },
+        {
+          "name": "--output",
+          "argumentType": "file",
+          "isRequired": "true",
+          "description": "File where all sample directories paths are stored."
+        }
+      ],
+      "outputs": [
+        {
+          "name": "--output",
+          "description": "File where all sample directories paths are stored.",
+          "outputType": "file_dependent",
+          "value": "",
+          "argument_name": "--output"
+        }
+      ],
+      "inputs": [
+      ]
     }
   ]
 }
