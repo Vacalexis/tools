@@ -8,7 +8,7 @@
   "setup": [
     "http://bowtie-bio.sourceforge.net/bowtie2/manual.shtml"
   ],
-  "toolType": "NGS",
+  "toolType": "unit",
   "requiredMemory": 2048,
   "recommendedCpus": 1,
   "recommendedDiskSpace": 1,
